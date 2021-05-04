@@ -84,9 +84,9 @@ Save and exit
 
     sudo make install
 
-Reboot and on Grub Menu, select Advanced Options -> Linux 4.14.232-with-BBR-Advanced
+Reboot and on Grub Menu, select Advanced Options and you will find <b>Linux 4.14.232-with-BBR-Advanced</b> alongside your other installed kernels, select it
 
-Check if is running with
+After booting, check if BBR-A is running with
 
     sudo cat /proc/sys/net/ipv4/tcp_congestion_control
 
