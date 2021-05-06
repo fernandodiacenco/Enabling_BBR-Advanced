@@ -16,7 +16,7 @@ It does not compile on current kernels, I managed to compile it only on (LTS) Ke
 
 There is a need to compile the Kernel, which is time consuming and requires higher than average knowledge
 
-The instructions bellow worked virtual machines running Debian 10 and Ubuntu 20.04 with a very slight difference at the start (installing prerequisites), my advice is to try and test on virtual machines first before applying on production
+The instructions bellow worked on virtual machines running Debian 10 and Ubuntu 20.04 with a very slight difference at the start (installing prerequisites), my advice is to try and test on virtual machines first before applying on production
 
 Note that at the time of this writing the latest LTS Kernel 4.14 is 4.14.232, it is likely to be updated as time goe on, so be sure to check kernel.org and adapt the instructions accordingly
 
@@ -66,7 +66,7 @@ Just hold enter for the questions until finish
 
     sudo make menuconfig
 
-Go to: Networking support → Networking options → TCP: advanced congestion control
+Go to: Networking support -> Networking options -> TCP: advanced congestion control
 
 Go to BBR TCP and change from <M> to <*> with the spacebar
 
